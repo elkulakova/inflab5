@@ -34,7 +34,7 @@ exit 0
 Весь файл `pre-commit` выглядит следующим образом:
 
 <p align="center">
- <img width="600px" src="code_new.png" alt="qr"/>
+ <img width="800px" src="code_new.png" alt="qr"/>
 </p>
 
 3) Теперь для проверки работоспособности хука создадим два файла:
@@ -50,7 +50,7 @@ git commit -m "trying to commit empty files"
 И увидим в терминале следующее:
 
 <p align="center">
- <img width="600px" src="hooked.png" alt="qr"/>
+ <img width="900px" src="hooked.png" alt="qr"/>
 </p>
 
 Результат говорит о том, что наш хук отработал верно.
