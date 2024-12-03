@@ -25,9 +25,24 @@ done
 
 exit 0
 ```
-Весь файл `pre-commit` выглядит следующим образомЖ
+Весь файл `pre-commit` выглядит следующим образом:
 
 <p align="center">
  <img width="600px" src="code.png" alt="qr"/>
 </p>
 
+3) Теперь для проверки работоспособности хука создадим два файла:
+   - `empty.txt` пустой файл
+   - `trial.txt` файл, заполненный пробелами, переносами строки и табуляциями
+Попробуем закоммитить эти файлы:
+
+```
+git add empty.txt trial.txt
+git commit -m "trying to commit empty files"
+```
+
+И увидим в терминале следующее:
+
+<p align="center">
+ <img width="600px" src="hooked.png" alt="qr"/>
+</p>
