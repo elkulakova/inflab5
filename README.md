@@ -34,7 +34,7 @@ exit 0
 Весь файл `pre-commit` выглядит следующим образом:
 
 <p align="center">
- <img width="600px" src="code.png" alt="qr"/>
+ <img width="600px" src="code_new.png" alt="qr"/>
 </p>
 
 3) Теперь для проверки работоспособности хука создадим два файла:
