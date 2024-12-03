@@ -28,6 +28,6 @@ exit 0
 Весь файл `pre-commit` выглядит следующим образомЖ
 
 <p align="center">
- <img width="600px" src="in process.png" alt="qr"/>
+ <img width="600px" src="code.png" alt="qr"/>
 </p>
 
