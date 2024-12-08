@@ -86,7 +86,7 @@ vim task_man.py
 ```
 
 <p align="center">
- <img width="900px" src="task_man.png" alt="qr"/>
+ <img width="700px" src="task_man.png" alt="qr"/>
 </p>
 
 Выполнила коммит изменения по мере разработки:
@@ -104,7 +104,7 @@ git flow feature finish task-management
 Git Flow автоматически удалил ветку `feature/task-management` и переключился на ветку `develop`:
 
 <p align="center">
- <img width="900px" src="feat merge.png" alt="qr"/>
+ <img width="700px" src="feat merge.png" alt="qr"/>
 </p>
 
 6. Начала создание релиза
@@ -128,7 +128,7 @@ git flow release finish v1.0.0
 ```
 
 <p align="center">
- <img width="900px" src="rel merge.png" alt="qr"/>
+ <img width="700px" src="rel merge.png" alt="qr"/>
 </p>
 
 9. Создала hotfix:
@@ -140,7 +140,7 @@ git flow hotfix start hotfix-1.0.1
 10. Внесла изменения в файл `file_with_error.py`:
 
 <p align="center">
- <img width="900px" src="fwe.png" alt="qr"/>
+ <img width="700px" src="fwe.png" alt="qr"/>
 </p>
 
 Зафиксировала изменения:
@@ -157,7 +157,7 @@ git flow hotfix finish hotfix-1.0.1
 ```
 
 <p align="center">
- <img width="900px" src="hot merge.png" alt="qr"/>
+ <img width="700px" src="hot merge.png" alt="qr"/>
 </p>
 
 12. Завершила работу и отправила изменения на удаленный репозиторий:
